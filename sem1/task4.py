@@ -5,12 +5,12 @@
 n = int(input("Enter n: "))
 m = int(input("Enter m: "))
 k = int(input("Enter k: "))
-if (k % n) == 0:
+if k % n == 0:
     if k // n < m:
         print("yes")
     else:
         print("no")
-elif (k % m) == 0:
+elif k % m == 0:
     if k // m < n:
         print("yes")
     else:

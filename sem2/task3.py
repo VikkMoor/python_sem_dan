@@ -9,7 +9,7 @@ points = {1: 'АВЕИНОРСТAEIOULNSTR',
 word = input('Enter your word: ').upper()
 price = 0
 for i in word:
-    if i in 'QWERTYUIOPASDFGHJKLZXCVBNMЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ':
+    if i in ''.join(points.values()):
         for j in points:
             if i in points[j]:
                 price += j

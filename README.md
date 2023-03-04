@@ -7,6 +7,6 @@ SEMINAR_1:
 * task4: task bout chocolate bar m*n and slices (if break it into two rectangles);
 
 SEMINAR_2:
-* task1: How many times the number appears in the list; 
+* task1: how many times the number appears in the list; 
 * task2: еask bout finding the element in list with close-in value to X;
-* task3: Task bout "scrabble" game and counting the price of english/russian word;
+* task3: task bout "scrabble" game and counting the price of english/russian word;

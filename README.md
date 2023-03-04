@@ -8,5 +8,5 @@ SEMINAR_1:
 
 SEMINAR_2:
 * task1: how many times the number appears in the list; 
-* task2: еask bout finding the element in list with close-in value to X;
+* task2: task bout finding the element in list with close-in value to X;
 * task3: task bout "scrabble" game and counting the price of english/russian word;

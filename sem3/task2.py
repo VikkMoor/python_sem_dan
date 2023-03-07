@@ -3,12 +3,9 @@ Can use only +1 and -1 arithmetic operations. Without any loops."""
 
 
 def my_sum(a, b):
-    a += 1
-    b -= 1
-    if b > 0:
-        return my_sum(a, b)
-    else:
-        return a
+    if b == 0:
+        return 1
+    return a + my_sum(1, b - 1)
 
 
 A = int(input("Enter A: "))

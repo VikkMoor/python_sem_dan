@@ -1,8 +1,5 @@
 """A^B"""
 
-A = int(input("Enter A: "))
-B = int(input("Enter B: "))
-
 
 def power_a(a, b):
     if b == 0:
@@ -10,4 +7,6 @@ def power_a(a, b):
     return a * power_a(a, b - 1)
 
 
+A = int(input("Enter A: "))
+B = int(input("Enter B: "))
 print(power_a(A, B))

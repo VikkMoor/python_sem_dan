@@ -10,3 +10,7 @@ SEMINAR_2:
 * task1: how many times the number appears in the list; 
 * task2: task bout finding the element in list with close-in value to X;
 * task3: task bout "scrabble" game and counting the price of english/russian word;
+
+SEMINAR_3 (recursion):
+* task1: A^B; 
+* task2: sum(a, b);

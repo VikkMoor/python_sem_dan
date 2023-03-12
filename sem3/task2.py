@@ -4,7 +4,7 @@ Can use only +1 and -1 arithmetic operations. Without any loops."""
 
 def my_sum(a, b):
     if b == 0:
-        return 1
+        return a
     return a + my_sum(1, b - 1)
 
 
